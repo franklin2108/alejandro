@@ -1,9 +1,10 @@
-- Git global setup
+- Git global setup -
 
 git config --global user.name "Jose Villasmil"
 git config --global user.email "josevillasmil@steps.web.ve"
 
-- Create a new repository
+- Create a new repository -
+
 git clone http://steps.web.ve:8000/steps/stepsoluciones.com.ve.git
 cd stepsoluciones.com.ve
 touch README.md
@@ -11,7 +12,8 @@ git add README.md
 git commit -m "add README"
 git push -u origin master
 
-- Existing folder or Git repository
+- Existing folder or Git repository -
+
 cd existing_folder
 git init
 git remote add origin http://steps.web.ve:8000/steps/stepsoluciones.com.ve.git
