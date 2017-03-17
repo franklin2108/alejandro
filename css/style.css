@@ -1,0 +1,148 @@
+/* Custom Stylesheet */
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+.nav{
+  position: fixed;
+  z-index: 10;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.nav-wrapper{
+  background: #47d195;
+  background: -moz-linear-gradient(90deg,#47d195 20%, #246DE9 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #2DBE60), color-stop(100%, #246DE9));
+  background: -webkit-linear-gradient(90deg, #47d195  20%, #246DE9 100%);
+  background: -o-linear-gradient(90deg,#47d195 0%, #246DE9 100%);
+  background: -ms-linear-gradient(90deg, #47d195  20%, #246DE9 100%);
+  background: linear-gradient(90deg, #47d195  20%, #246DE9 100%);;
+}
+.logo{
+	width: 3em;
+	margin-left: 2em;
+  position: absolute;
+  z-index: 3;
+}
+.brand-logo{
+	font-weight: bold;
+}
+/*
+esta parte comentada, es para cambiar
+los nombres de las clases de los botones
+redondos
+.btn,.waves-effect{
+	float: right;
+	margin-top:0.9em;
+}*/
+.title{
+  margin-bottom: 3rem;
+}
+
+.api{
+  margin-bottom: 2rem;
+}
+.text-empresa{
+  margin: 1em;
+  padding: 1em;
+
+}
+#img-card{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+#img-one{
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+#mov-nav{
+  background: #47d195;
+  background: -moz-linear-gradient(90deg,#47d195 0%, #246DE9 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #2DBE60), color-stop(100%, #246DE9));
+  background: -webkit-linear-gradient(90deg, #47d195 0%, #246DE9 100%);
+  background: -o-linear-gradient(90deg,#47d195 0%, #246DE9 100%);
+  background: -ms-linear-gradient(90deg, #47d195 0%, #246DE9 100%);
+  background: linear-gradient(90deg, #47d195 0%, #246DE9 100%);;
+}
+h4,h5,ul,li{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+#font{
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+#mod-img{
+  margin-top: -4em;
+  width: 90px;
+  float: right;
+
+}
+.face{
+  width: 90px;
+  height: 90px;
+  margin-right: -20em;
+  overflow: hidden;
+}
+.faces{
+  width: 90px;
+  height: 90px;
+  margin-right: -17em;
+}
+.step{
+  width: 80%;
+}
+.emp{
+  width: 70%;
+}
+.productos{
+  margin-top: 3em;
+  margin-right:3em;
+}
+.pc{
+  margin-top: -3em;
+}
+.copy{
+  text-align: center;
+}
+
+.redes{
+  width: 18%;
+  height: 18%;
+  opacity: 0.5;
+}
+.redes:hover
+{
+  width: 19%;
+  height: 19%;
+  opacity: 1;
+
+}
+span{
+  float: right;
+}
+/* .social{
+  margin-left: -1em;
+  width: 30em;
+  margin-bottom: -1.4em;
+  margin-top: -1.4em;
+
+} */
+
+.social_redes{
+  width: 100%;
+}
+.frase{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+.frase1{
+  font-family: 'Raleway', sans-serif;
+}
